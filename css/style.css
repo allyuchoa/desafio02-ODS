@@ -1,0 +1,17 @@
+html, body{
+    background-color: rgb(190, 249, 230);
+
+}
+
+#imagem_fundo{
+    background-image: url("/img/fundo.jpg");
+    color: white;
+    margin: 50px;
+    padding: 20px;
+    padding-top: 100px;
+
+}
+
+
+
+
