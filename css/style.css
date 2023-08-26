@@ -4,7 +4,7 @@ html, body{
 }
 
 #imagem_fundo{
-    background-image: url("/img/fundo.jpg");
+    background-image: url("img/fundo.jpg");
     color: white;
     height: 100%;
     text-align: center;
