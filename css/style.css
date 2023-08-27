@@ -1,27 +1,40 @@
 html, body{
     margin: 0;
+    padding: 0;
 
+}
+
+header{
+    background-color: #041937;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    
 }
 
 #imagem_fundo{
     background-image: url("/img/fundo.jpg");
-    color: white;
     height: 100%;
     text-align: center;
+    background-size: cover;
 }
 
 #titulo{
     color: white;
     padding-top: 30%;
     font-size: 50px;
+    
 
 }
 
-header{
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    z-index: 10;
+#subtitulo{
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px black;
+
 }
 
 #menu{
@@ -29,7 +42,19 @@ header{
     list-style: none;
     margin: 5%;
     margin-top: 0px;
+    
 
+}
+
+li{
+    float: left;
+    padding: 20 10 20 10;
+    
+
+}
+
+li:hover {
+    background-color: rgb(142, 183, 230);
 }
 
 section{
@@ -43,6 +68,26 @@ section{
     color: whitesmoke;
     border: 1px whitesmoke solid;
     padding: 10px 20px 10px 20px;
+}
+
+#projeto{
+    padding: 20px;
+}
+
+#sobre_ods{
+    background-color: white;
+    padding: 20px;
+}
+
+.destaque{
+    background-color: rgb(235, 234, 234);
+
+}
+
+.destaque1{
+    background-color: #041937;
+    color: white;
+    width: 100%;
 }
 
 .sessao{
@@ -62,6 +107,7 @@ section{
 .justificado{
     text-align: center;
 }
+
 
 
 

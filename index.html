@@ -3,13 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Meu Primeiro Site</title>
 </head>
 <body>
     <header>
         <ul id="menu">
-            <li><a href="projeto">Projeto</a></li>
-            <li><a href="sobre">Sobre</a></li>
+            <li><a href="#imagem_fundo">Inicio</a></li>
+            <li><a href="#projeto">Projeto</a></li>
+            <li><a href="#sobre_ods">Sobre a ODS</a></li>
+            <li><a href="#sobre_min">Sobre Min</a></li>
         </ul>
     </header>
     <div id="imagem_fundo">
@@ -19,20 +21,20 @@
         
     </div>
     <br>
-    <section id="objetivo">
+    <section id="projeto" class="destaque">
         <div class="sessao dois">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-Qy6HtE0GZU?si=JELuLNX1zFjr34Lx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/-Qy6HtE0GZU?si=JELuLNX1zFjr34Lx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <div class="sessao dois">
-            <h2>Objetivo</h2>
-            <p>
+        <div class="sessao dois destaque">
+            <h3 class="centralizado">Projeto</h3>
+            <p class="justificado">
                 O Objetivo de Desenvolvimento Sustentável (ODS) número 14 é "Vida na Água". Este objetivo faz parte da Agenda 2030 para o Desenvolvimento Sustentável, que foi adotada pela Assembleia Geral das Nações Unidas em setembro de 2015. O objetivo "Vida na Água" tem como foco a conservação e o uso sustentável dos oceanos, mares e recursos marinhos para o desenvolvimento sustentável.
             </p>
         </div>
     </section>
-    <section class="centralizado" id="projeto">
+    <section class="centralizado" id="sobre_ods">
         <div class="sessao centralizado">
-            <h2>Os principais alvos do ODS 14 incluem:</h2>
+            <h3>Os principais alvos do ODS 14 incluem:</h3>
     
             <p>
                 Reduzir a poluição marinha: Isso envolve a redução significativa da poluição de origem terrestre, como resíduos plásticos, produtos químicos tóxicos e poluentes orgânicos persistentes, que afetam negativamente a vida marinha.
@@ -58,8 +60,23 @@
     
         </div>
     </section>
-    <footer>
-        <section><h4>Fonte: brasil.un.org</h4></section>
-    </footer>
+    <section id="sobre_min" class="destaque">
+        <div class="sessao dois">
+            <h3>Sobre Min</h3>
+            <p>Adrielly Uchoa</p>
+            <p>Olá, tenho 26 anos sou estudante de desenvolvimento Web,esse projeto foi desenvolvido durante o curso Meu primeiro site do Inspira ja. </p>
+        </div>
+        <div class="sessao dois">
+            <img width="100%" src="/img/perfil.png" alt="mulher">
+        </div>
+    </section>
+    <section class="destaque1">
+        <div>
+            <footer>
+                <section><h4>Fonte: brasil.un.org</h4></section>
+            </footer>
+        </div>
+    </section>
+    
 </body>
 </html>
