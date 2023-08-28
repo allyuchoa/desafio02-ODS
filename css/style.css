@@ -10,11 +10,12 @@ header{
     width: 100%;
     position: fixed;
     z-index: 10;
+    box-shadow: 0px 3px 5px rgb(8, 8, 8);
     
 }
 
 #imagem_fundo{
-    background-image: url("img/fundo.jpg");
+    background-image: url("../img/fundo.jpg");
     color: white;
     height: 100%;
     text-align: center;
@@ -33,7 +34,6 @@ header{
     color: white;
     padding-left: 20%;
     padding-right: 20%;
-    border-top: 3px solid white;
     text-shadow: 1px 1px black;
 
 }
@@ -50,12 +50,19 @@ header{
 li{
     float: left;
     padding: 20 10 20 10;
+    text-decoration: none;
     
 
 }
 
 li:hover {
     background-color: rgb(142, 183, 230);
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 section{
@@ -63,21 +70,30 @@ section{
     padding: 30px;
     float: left;
     float: right;
+    display: block;
 }
 
-#acao{
+#botao{
     color: whitesmoke;
     border: 1px whitesmoke solid;
     padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
 }
 
 #projeto{
     padding: 20px;
+    
 }
 
 #sobre_ods{
     background-color: white;
     padding: 20px;
+}
+
+#sobre_min{
+    text-align: left;
+    
 }
 
 .destaque{
@@ -99,6 +115,17 @@ section{
 
 .dois{
     width: 40%;
+    text-align: left;
+}
+
+.icon_social{
+    height: 60px;
+    width: 60px;
+}
+
+.foto_perfil{
+    float: right;
+    
 }
 
 .centralizado{
@@ -107,6 +134,10 @@ section{
 
 .justificado{
     text-align: center;
+}
+
+footer{
+    text-align: right;
 }
 
 
